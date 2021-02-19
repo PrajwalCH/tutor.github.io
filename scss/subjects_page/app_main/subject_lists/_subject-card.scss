@@ -1,0 +1,11 @@
+.subject-card {
+  margin-left: 0.5em;
+  
+  + .subject-card {
+    margin-top: 1.5em;
+    
+    @media screen and (min-width: 35em) {
+      margin-top: 0;
+    }
+  }
+}

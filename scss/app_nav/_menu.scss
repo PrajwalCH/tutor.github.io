@@ -1,0 +1,46 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+@media screen and (min-width: 35em) {
+  .menu {
+    justify-content: unset;
+  }
+}
+
+.menu>li>a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.3em 1.2em;
+  font-size: 0.9em;
+  font-weight: 700;
+  text-decoration: none;
+
+  @media screen and (min-width: 35em) {
+    font-size: inherit;
+  }
+}
+
+.menu__icon {
+  transition: transform 40ms ease-in;
+
+  @media screen and (min-width: 35em) {
+    transform: scale(1.2);
+  }
+}
+
+.menu>li>a:active .menu__icon,
+.menu>li>a:hover .menu__icon,
+.menu>li>a:focus .menu__icon {
+  transform: scale(1.2);
+}
+
+.menu__label {
+  color: #9e9e9e;
+  text-transform: capitalize;
+}

@@ -1,0 +1,8 @@
+/* For container */
+@mixin medium-screen {
+  @media screen and (min-width: 35em) {
+    position: static;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+  }
+}

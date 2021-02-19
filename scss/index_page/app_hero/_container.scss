@@ -1,0 +1,13 @@
+.app-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5em;
+  padding: 2.5em 1em;
+  
+  @media screen and (min-width: 35em) {
+    flex-direction: row-reverse;
+    padding: 2em;
+  }
+}

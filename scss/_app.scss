@@ -1,0 +1,17 @@
+@use "normalize";
+
+main {
+  margin-top: 2em;
+  margin-bottom: calc(100px - 0.3em + 25px);
+  padding-right: 0.6em;
+  padding-left: 0.6em;
+}
+
+.app-header {
+  padding: 1em 0.5em;
+  box-shadow: 0 .3em 0.5em rgba(0,0,0,0.05);
+
+  h1 {
+    margin: 0;
+  }
+}

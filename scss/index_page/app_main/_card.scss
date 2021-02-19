@@ -1,0 +1,34 @@
+@use "../../colorlib" as *;
+
+.card {
+  border-radius: .5em;
+  padding-bottom: .3em;
+  box-shadow: .1em .1em 0.5em rgba(0,0,0,0.2);
+  
+  &__header {
+    padding: 1em 1em;
+    font-weight: 600;
+    border-bottom: 1px solid $light-yellow;
+  }
+  
+  &__body {
+    padding: .1em 1em;
+  }
+  
+  + .card {
+    margin-top: 1.5em;
+    
+    @media screen and (min-width: 50em) {
+      margin-left: 1.5em;
+    }
+  }
+  
+  @media screen and (min-width: 35em) {
+    background-color: #fafafa;
+    box-shadow: none;
+  }
+  
+  @media screen and (min-width: 50em) {
+    flex-basis: 50%;
+  }
+}
