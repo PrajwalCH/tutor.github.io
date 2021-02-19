@@ -1,14 +1,14 @@
 export const lists = [
   {
-    subject: "Math",
+    subject: "Math (SAT, AP)",
     topics: [
-      "algebra",
-      "calculus",
+      "algebra-1, 2",
+      "calculus AB, BC",
       "statistics"
       ]
   },
   {
-    subject: "Physics",
+    subject: "Physics (AP)",
     topics: [
       "mechnanics",
       "thrmodynamics",
