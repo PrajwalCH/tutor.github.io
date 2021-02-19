@@ -1,5 +1,5 @@
 export function buildIconTag(wrapperClass, iconName) {
-    const ICONS_PATH = "/assets/icons/app_nav/";
+    const ICONS_PATH = "../../../../assets/icons/app_nav/";
     const ICON_EXTENSION = ".svg";
     const imgTagClass = `${wrapperClass}__icon`;
     const icon = `${iconName}${ICON_EXTENSION}`;
